@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  },
+  "name": "app_example",
+  "version": "1.0.0",
+  "description": "express na pratica",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "lint": "eslint **/*.js --ignore-pattern node_modules/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateus202020/Desafio_express.git"
+  },
+  "author": "Mateus Gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateus202020/Desafio_express/issues"
+  },
+  "homepage": "https://github.com/mateus202020/Desafio_express#readme",
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}

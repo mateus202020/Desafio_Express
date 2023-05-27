@@ -16,17 +16,17 @@ app.get('/cliente', (req, res) => {
 });
 app.post('/cliente', (req, res) => {
   const endpoint = '/clientes';
-  const method = 'GET';
+  const method = 'POST';
   res.send(`Endpoint: ${endpoint}\nMethod: ${method}`);
 });
 app.put('/cliente', (req, res) => {
   const endpoint = '/clientes';
-  const method = 'GET';
+  const method = 'PUT';
   res.send(`Endpoint: ${endpoint}\nMethod: ${method}`);
 });
-app.get('/cliente', (req, res) => {
+app.delete('/cliente', (req, res) => {
   const endpoint = '/clientes';
-  const method = 'GET';
+  const method = 'DELETE';
   res.send(`Endpoint: ${endpoint}\nMethod: ${method}`);
 });
 
@@ -38,17 +38,17 @@ app.get('/servico', (req, res) => {
 });
 app.post('/servico', (req, res) => {
   const endpoint = '/clientes';
-  const method = 'GET';
+  const method = 'POST';
   res.send(`Endpoint: ${endpoint}\nMethod: ${method}`);
 });
 app.put('/servico', (req, res) => {
   const endpoint = '/clientes';
-  const method = 'GET';
+  const method = 'PUT';
   res.send(`Endpoint: ${endpoint}\nMethod: ${method}`);
 });
 app.delete('/servico', (req, res) => {
   const endpoint = '/clientes';
-  const method = 'GET';
+  const method = 'DELETE';
   res.send(`Endpoint: ${endpoint}\nMethod: ${method}`);
 });
 
